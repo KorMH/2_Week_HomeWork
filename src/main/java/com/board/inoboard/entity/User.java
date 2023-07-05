@@ -21,12 +21,8 @@ public class User {
     @Id
     @GeneratedValue(strategy =GenerationType.IDENTITY)
     private Long id;
-    @Column(unique = true)
-    @Pattern(regexp = "^[a-z0-9]{4,10}$",message = "4~10자리 소문자와숫자만 넣으세요")
     private String username; // 사용자이름.
-    @Pattern(regexp = "^[a-zA-Z0-9]{8,15}$")
     private String password; //패스워드
-    @Email
     private String email;
 
     public User(String username, String password, String email) {
