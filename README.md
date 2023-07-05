@@ -1,6 +1,9 @@
-
 ERD
 https://www.erdcloud.com/d/rqmCXtc2YChxiYtA6
+
+API
+https://app.gitbook.com/o/V5VrjPDZv0MXbZhGKcSi/s/-MfR1HX1m4kPXtRwc7iX/
+
 
 
 1. 처음 설계한 API 명세서에 변경사항이 있었나요? 
